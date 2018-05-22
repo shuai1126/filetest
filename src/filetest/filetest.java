@@ -42,7 +42,7 @@ public class filetest {
             FileWriter fileWriter = new FileWriter(new File(fileName));
             BufferedWriter bufWriter = new BufferedWriter(fileWriter);
             for (int i = 0; i < list.size(); i++) {
-                bufWriter.write(list.get(i), 0, 5);//读取前5个字符
+                bufWriter.write(list.get(i), 0, 6);//读取前5个字符
                 bufWriter.newLine();
             }
             bufWriter.close();
