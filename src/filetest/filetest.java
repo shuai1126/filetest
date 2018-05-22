@@ -18,7 +18,7 @@ public class filetest {
         filetest fileTest = new filetest();
         fileTest.readFile("E:/work/a.txt");
         fileTest.printFile("E:/work/b.txt");
-        System.out.println(fileTest.list);
+       // System.out.println(fileTest.list);
     }
 
     public void readFile(String fileName) {
